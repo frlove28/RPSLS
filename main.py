@@ -1,4 +1,4 @@
-# rules of game
+# 1 rules of game
 
 # Best 2 out of 3 wins
 
@@ -17,6 +17,22 @@
 
 # Algorithms
 
+#1 rules of the game
+#2 create input for Vs Human, Vs AI
+# 3 create classes to run game showing points to players displaying a round winner
+#4 Two out of three wins determines winner
+#5 display a winner
+
+
+
+
+
+
+
+
+
+
+
 # will need user input(): bad user input???
 
 #  As a player, I want the game of RPSLS to be at minimum a 
@@ -25,7 +41,7 @@
 # show that a player wins each round
 
 
-# enter all hand gestures as a string
+# enter all hand gestures as a string X
 
 
 # determine parent/ child class
@@ -86,8 +102,11 @@
 # (10 points): As a player, I want the option of a single player (human vs AI) or a multiplayer (human vs human) game.
 
 
-input('Welcome to RPSLS! For One Player. enter "1" for Multiplayer, enter "2"')
+#input('Welcome to RPSLS! For One Player. enter "1" for Multiplayer, enter "2"')
+class Rpsls:
+    pass
 
+RPSLS = Rpsls()
 
 
 
