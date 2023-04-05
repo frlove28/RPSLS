@@ -1,4 +1,5 @@
-class Player:
+
+class Player_two:
     def __init__(self, name):
         self.name = name
         self.gestures = ['rock', 'paper', 'scissors', 'lizard', 'spock']
@@ -9,9 +10,7 @@ class Player:
         
     
     def choose_gesture(self):
-        
+        pass
 
     def is_winner(self):
         return self.score >= 2
-    
-    

@@ -4,8 +4,16 @@ class Human(Player):
         super().__init__(name)
     
     def choose_gesture(self):
-          for gesture in self.gestures:
-              print(gesture)
+        for gesture in self.gestures:
+            print(gesture)
+        
+        self.choice = input('Please choose an attack from printed list: ')
+        print (f"{self.name} chooses {self.choice}")
+        
+         
+                
+
+      
               
               
 mark = Human("Mark")
