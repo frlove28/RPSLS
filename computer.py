@@ -1,3 +1,6 @@
+import random 
+
+
 class Computer:
     def __init__(self, name):
         self.gestures = ['rock', 'paper', 'scissors', 'lizard', 'spock']
@@ -8,8 +11,12 @@ class Computer:
         
     
     def choose_gesture(self):
-        self.gestures = random.choice
-        
+        self.gestures = random.choice(self.gestures)
+        self.choice = self.gestures
+
+
 
     def is_winner(self):
         return self.score >= 2
+
+print(self.gestures)

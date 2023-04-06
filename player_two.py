@@ -6,11 +6,17 @@ class Player_two:
         self.score =0
         self.choice = ""
         
-        
-        
+
+    
     
     def choose_gesture(self):
-        pass
+        self.choice = input('Please choose an attack from printed list: ')
+        print (f"{self.name} chooses {self.choice}")
+
+
+
 
     def is_winner(self):
         return self.score >= 2
+
+ 

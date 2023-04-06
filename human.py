@@ -13,10 +13,19 @@ class Human(Player):
          
                 
 
-      
+    # def score_keeper(self):
+    #     if self.score >= 2 :
+    #         print (f"{self.name} wins!!!")
+
               
-              
-mark = Human("Mark")
-mark.choose_gesture()
+    # def store_user_choice(self):
+    #     self.name = input()
+
+
+
+
+player_one = Human()
+player_two = Human()
+player_one.choose_gesture()
             
                     
