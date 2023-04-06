@@ -8,8 +8,9 @@ class Rpsls:
         pass
 
 
-def welcome_message(self):
-    input('Welcome to Rock, Paper, Scissors, Lizard, Spock! To play One Player against Computer enter "1". To play Muliplayer against a friend enter "2"')
+# def welcome_message(self):
+ user_choice  = input('Welcome to Rock, Paper, Scissors, Lizard, Spock! To play One Player against Computer enter "1". To play Muliplayer against a friend enter "2"')
+
 
 print("Rules of Game:") 
 
@@ -24,14 +25,12 @@ print ("paper disproves spock")
 print ("spock vaporizes rock")
 print ("rock crushes scissors")
 
-user_choice = input(int(1,2))
-pass
 
+
+user_result = int(user_choice)
+    
 def player_one_vs_computer(self):
-    if user_choice == 1:
-        print (input(f"You are playing vs Computer. Round 1. Choose your Weapon: {self.gestures}"))
-
-
-
-
-
+   if user_result == 1:
+          print (input(f"You are playing vs Computer. Round 1. Choose your Weapon:")) 
+        # else: 
+        #   print  (input(f"You are playing Multiplayer mode. Round 1. Player One Choose your Weapon: {self.gestures}")) 
